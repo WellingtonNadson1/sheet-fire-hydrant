@@ -1,0 +1,29 @@
+.header-top{
+    background: rgb(11, 214, 102);
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.header-top > h2{
+    color: white;
+    font-family: var(--text-family);
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: block;
+    margin-top: 8px;
+}
+
+.header-top .squad{
+    display: block;
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background: #0bd666;
+    position: absolute;
+    rotate: 45deg;
+    z-index: -1;
+    top: 2.7rem;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
